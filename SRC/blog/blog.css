@@ -1,6 +1,54 @@
 body {
-    height: 100%
-    width: 100%
-    background: firebrick; 
+    height: 100%;
+    width: 75%;
+    margin: 5% auto;
+    background:  rgb(210, 210, 240); 
 
 }
+
+.blog{
+    width: 250px;
+
+}
+h2 {
+    color: black;
+    width: 60%;
+    margin: 5% auto;
+
+}
+main {
+    
+    width:60%;
+    margin:5% auto;
+
+}
+article {
+    margin: 1%; 
+    border: solid grey 2px;
+    background: white
+
+}
+
+article:hover
+{
+    background: grey 
+
+}
+article:hover > h3
+{
+    color: red;
+}
+
+
+
+.blogs-container {
+    height: 100%;
+    width: 50%;
+    border: 1px solid blue;
+}
+.blog {
+    height: 100px;
+    width: 100%;
+    border: 1px solid blue;
+    
+} 
