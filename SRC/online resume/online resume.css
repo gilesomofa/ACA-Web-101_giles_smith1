@@ -4,26 +4,42 @@
   margin-left:auto;
   margin-right:auto;
   margin-top:11px;
-  background-color: grey;
+  background-color:yellow;
+
 }
 #Header{
   height: 150px;
-  background-color: grey;
-  text-align: auto;
-  font-size:16px;
-  
+  background-color: green;
+  text-align:14px auto;
+  font-size:;
+  text-align: center;
+  font-family: sans sans-serif;
+  margin-top: 6px;
+  margin-bottom: 10px;
+ 
 }
-
-
 #MainBody{
-  width: 800px;
-  Height:650;
-  background-color:darkgrey;
+  width: 100%;
+  Height:500;
+  background-color:yellow;
+  text-align: left;
+  text-indent: 10px;
+  margin-top: 20px;
 }
+li {
+text-align: left;
+}
+#Education{
 
+width: 100%;
+Height: 300px;
+background-color:yellow;
+text-align: left;
+text-indent: 10px
+}
 #Footer{
   Height:100px;
-  clear:both;
+  margin-left: 5px;
 
 
 }
