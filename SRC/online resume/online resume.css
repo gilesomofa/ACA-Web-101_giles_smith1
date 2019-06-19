@@ -3,9 +3,6 @@
   height:1000px;
   margin-left:auto;
   margin-right:auto;
-  margin-top:11px;
-  background-color:yellow;
-
 }
 #Header{
   height: 150px;
@@ -15,16 +12,14 @@
   text-align: center;
   font-family: sans sans-serif;
   margin-top: 6px;
-  margin-bottom: 10px;
  
 }
 #MainBody{
   width: 100%;
   Height:500;
-  background-color:yellow;
+  background-color:darkred;
   text-align: left;
   text-indent: 10px;
-  margin-top: 20px;
 }
 li {
 text-align: left;
@@ -40,6 +35,10 @@ text-indent: 10px
 #Footer{
   Height:100px;
   margin-left: 5px;
+
+
+}
+#hr{
 
 
 }

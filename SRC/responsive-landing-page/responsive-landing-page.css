@@ -1,0 +1,28 @@
+
+.Container{
+height:480px;
+width:320px;
+
+}
+.Photo{
+height:300px;
+width:300px;
+}
+.headline{
+width:200px;
+}
+.Technology{
+height: 35px;
+width: 120px;
+background-color: brown;
+text-align: center;
+line-height: 1.5;
+
+
+
+}
+.links{
+font-size: 14px;
+text-align: left;
+
+}
