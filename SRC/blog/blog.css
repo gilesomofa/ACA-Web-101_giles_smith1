@@ -2,7 +2,7 @@ body {
     height: 100%;
     width: 75%;
     margin: 5% auto;
-    background:  rgb(210, 210, 240); 
+    background:  rgb(45, 170, 224); 
 
 }
 
@@ -11,10 +11,13 @@ body {
 
 }
 h2 {
-    color: black;
+    color: rgb(75, 64, 64);
     width: 60%;
     margin: 5% auto;
 
+}
+h3{
+    color:rgb(21, 151, 231);
 }
 main {
     
@@ -25,18 +28,19 @@ main {
 article {
     margin: 1%; 
     border: solid grey 2px;
-    background: white
+    background: grey;
+    padding: 8px 8px 8px 8px;
 
 }
 
 article:hover
 {
-    background: grey 
+    background: lightgrey;
 
 }
 article:hover > h3
 {
-    color: red;
+    color: rgb(84, 88, 94);
 }
 
 
