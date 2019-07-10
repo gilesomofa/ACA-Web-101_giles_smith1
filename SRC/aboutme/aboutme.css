@@ -4,10 +4,13 @@
   padding: 0;
 }
 body{
-  width:1200px;
-  height: auto;
-  padding: 20px;
-  background-color: rgba(240, 248, 255, 0.897)
+  width:100%;
+
+}
+.wrapper{
+  width:95%;
+  Height: 100%;
+  
 }
 .nav {
   width: 400px;
@@ -45,4 +48,5 @@ h4{
   display: flex;
   float: right;
   justify-content: space-between;
+  justify-items: center;
 }
