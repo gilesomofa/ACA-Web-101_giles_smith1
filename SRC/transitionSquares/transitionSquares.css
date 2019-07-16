@@ -1,0 +1,50 @@
+*{
+margin: 0;
+padding: 0;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  color: aqua;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+  border: solid 1px blue;
+  position: relative;
+  left: 25%;
+
+
+}
+
+.box{
+  height: 50px;
+  width: 50px;
+  box-shadow: .1em;
+  transition: all 1.4 linear;
+}
+.container:hover .even{
+transform: scale(1.05) translatex(500px) rotate(270deg);
+transition: transform 0.5s ease-in;
+}
+.container:hover .odd{
+  transform: scale(1.05) translatex(-500px) rotate(270deg);
+  transition: transform 0.5s ease-in;
+}
+.container :nth-child(even){
+background-color: blue;
+}
+  .container :nth-child(odd){
+    background-color: red;
+  }
+  
+    .odd {
+      transition: transform 0.5s ease-in;
+
+    }
+    .even {
+      transition: transform 0.5s ease-in;
+
+    }
